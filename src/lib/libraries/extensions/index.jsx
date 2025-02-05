@@ -46,6 +46,11 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import gdxforIconURL from './playgo/playgo.png';
+import gdxforInsetIconURL from './playgo/playgo-small.svg';
+import gdxforConnectionIconURL from './playgo/playgo-illustration.svg';
+import gdxforConnectionSmallIconURL from './playgo/playgo-small.svg';
+
 export default [
     {
         name: (
@@ -322,13 +327,13 @@ export default [
         name: 'tdrobotica:PlayGo',
         extensionId: 'playgo',
         collaborator: 'tdrobotica',
-        iconURL: playgoforIconURL,
-        insetIconURL: playgoforInsetIconURL,
+        iconURL: playgoIconURL,
+        insetIconURL: playgoInsetIconURL,
         description: (
             <FormattedMessage
                 defaultMessage="Program the PlayGo board."
                 description="Message to motivate people to program their PlayGo"
-                id="gui.extension.playgofor.description"
+                id="gui.extension.playgo.description"
             />
         ),
         featured: true,
@@ -337,13 +342,13 @@ export default [
         internetConnectionRequired: true,
         launchPeripheralConnectionFlow: true,
         useAutoScan: false,
-        connectionIconURL: playgoforConnectionIconURL,
-        connectionSmallIconURL: playgoforConnectionSmallIconURL,
+        connectionIconURL: playgoConnectionIconURL,
+        connectionSmallIconURL: playgoConnectionSmallIconURL,
         connectingMessage: (
             <FormattedMessage
                 defaultMessage="Connecting"
                 description="Message to help people connect to their force and acceleration sensor."
-                id="gui.extension.playgofor.connectingMessage"
+                id="gui.extension.playgo.connectingMessage"
             />
         ),
         helpLink: 'https://www.tdrobotica.co'
