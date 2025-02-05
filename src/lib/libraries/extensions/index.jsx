@@ -46,10 +46,10 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
-import gdxforIconURL from './playgo/playgo.png';
-import gdxforInsetIconURL from './playgo/playgo-small.svg';
-import gdxforConnectionIconURL from './playgo/playgo-illustration.svg';
-import gdxforConnectionSmallIconURL from './playgo/playgo-small.svg';
+import playgoIconURL from './playgo/playgo.png';
+import playgoInsetIconURL from './playgo/playgo-small.svg';
+import playgoConnectionIconURL from './playgo/playgo-illustration.svg';
+import playgoConnectionSmallIconURL from './playgo/playgo-small.svg';
 
 export default [
     {
