@@ -317,5 +317,35 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
+    },
+    {
+        name: 'tdrobotica:PlayGo',
+        extensionId: 'playgo',
+        collaborator: 'tdrobotica',
+        iconURL: playgoforIconURL,
+        insetIconURL: playgoforInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Program the PlayGo board."
+                description="Message to motivate people to program their PlayGo"
+                id="gui.extension.playgofor.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: true,
+        internetConnectionRequired: true,
+        launchPeripheralConnectionFlow: true,
+        useAutoScan: false,
+        connectionIconURL: playgoforConnectionIconURL,
+        connectionSmallIconURL: playgoforConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their force and acceleration sensor."
+                id="gui.extension.playgofor.connectingMessage"
+            />
+        ),
+        helpLink: 'https://www.tdrobotica.co'
     }
 ];
