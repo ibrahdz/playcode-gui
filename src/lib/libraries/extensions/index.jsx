@@ -336,21 +336,6 @@ export default [
                 id="gui.extension.playgo.description"
             />
         ),
-        featured: true,
-        disabled: false,
-        bluetoothRequired: true,
-        internetConnectionRequired: true,
-        launchPeripheralConnectionFlow: true,
-        useAutoScan: false,
-        connectionIconURL: playgoConnectionIconURL,
-        connectionSmallIconURL: playgoConnectionSmallIconURL,
-        connectingMessage: (
-            <FormattedMessage
-                defaultMessage="Connecting"
-                description="Message to help people connect to their force and acceleration sensor."
-                id="gui.extension.playgo.connectingMessage"
-            />
-        ),
-        helpLink: 'https://www.tdrobotica.co'
+        featured: true,        
     }
 ];
