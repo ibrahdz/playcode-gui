@@ -11,7 +11,7 @@
   },
   "main": "./dist/scratch-gui.js",
   "scripts": {
-      "build": "npm run pull:playcode-gui && npm run pull:playcode-vm && npm run clean && npm run build:playcode-gui && npm run build:playcode-vm && npm run copy:build",
+      "build": "npm run pull:playcode-gui && npm run pull:playcode-vm && npm run clean && npm run build:playcode-vm && npm run build:playcode-gui && npm run copy:build",
       "clean": "rimraf ./build ./dist",
       "build:playcode-gui": "webpack",
       "build:playcode-vm": "cd ../playcode-vm && npm run build",
