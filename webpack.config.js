@@ -125,7 +125,7 @@ const buildConfig = baseConfig.clone()
         ...commonHtmlWebpackPluginOptions,
         chunks: ['gui'],
         template: 'src/playground/index.ejs',
-        title: 'PlayCode por tdrobotica'
+        title: 'PlayCode por tdrobotica e Ibraim'
     }))
     .addPlugin(new HtmlWebpackPlugin({
         ...commonHtmlWebpackPluginOptions,
