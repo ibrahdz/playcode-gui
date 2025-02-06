@@ -17,8 +17,8 @@
       "build:playcode-vm": "cd ../playcode-vm && git pull origin main && npm run build",
       "pull:playcode-gui": "git pull origin main",
       "pull:playcode-vm": "cd ../playcode-vm && git pull origin main",
-      "copy:build": "cp -r build/* /var/www/playcode", // Copy build output to /var/www/playcode
-      "webpack": "webpack --config webpack.config.js", // Assuming you have a webpack config for additional bundling
+      "copy:build": "cp -r build/* /var/www/playcode",
+      "webpack": "webpack --config webpack.config.js",
     "deploy": "touch build/.nojekyll && gh-pages -t -d build -m \"[skip ci] Build for $(git log --pretty=format:%H -n1)\"",
     "prepublish": "node scripts/prepublish.mjs",
     "prune": "./prune-gh-pages.sh",
