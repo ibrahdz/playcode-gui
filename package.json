@@ -13,12 +13,11 @@
   "scripts": {
       "build": "npm run pull:playcode-gui && npm run pull:playcode-vm && npm run clean && npm run build:playcode-gui && npm run build:playcode-vm && npm run copy:build",
       "clean": "rimraf ./build ./dist",
-      "build:playcode-gui": "  react-scripts build",
+      "build:playcode-gui": "webpack",
       "build:playcode-vm": "cd ../playcode-vm && npm run build",
       "pull:playcode-gui": "git pull origin develop",
       "pull:playcode-vm": "cd ../playcode-vm && git pull origin develop",
       "copy:build": "cp -r build/* /var/www/playcode",
-      "webpack": "webpack --config webpack.config.js",
     "deploy": "touch build/.nojekyll && gh-pages -t -d build -m \"[skip ci] Build for $(git log --pretty=format:%H -n1)\"",
     "prepublish": "node scripts/prepublish.mjs",
     "prune": "./prune-gh-pages.sh",
