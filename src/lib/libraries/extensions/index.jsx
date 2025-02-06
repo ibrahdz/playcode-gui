@@ -329,13 +329,6 @@ export default [
         collaborator: 'tdrobotica',
         iconURL: playgoIconURL,
         insetIconURL: playgoInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Program the PlayGo board."
-                description="Message to motivate people to program their PlayGo"
-                id="gui.extension.gdxfor.description"
-            />
-        ),
         featured: true,        
-    }
+    },    
 ];
