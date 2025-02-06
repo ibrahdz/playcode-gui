@@ -333,7 +333,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Program the PlayGo board."
                 description="Message to motivate people to program their PlayGo"
-                id="gui.extension.playgo.description"
+                id="gui.extension.gdxfor.description"
             />
         ),
         featured: true,        
