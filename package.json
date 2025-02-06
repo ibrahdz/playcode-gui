@@ -11,8 +11,14 @@
   },
   "main": "./dist/scratch-gui.js",
   "scripts": {
-    "build": "npm run clean && webpack && cp -r build/* /var/www/playcode",
-    "clean": "rimraf ./build ./dist",
+      "build": "npm run pull:playcode-gui && npm run pull:playcode-vm && npm run clean && npm run build:playcode-gui && npm run build:playcode-vm && npm run copy:build",
+      "clean": "rimraf ./build ./dist",
+      "build:playcode-gui": "  react-scripts build",
+      "build:playcode-vm": "cd ../playcode-vm && git pull origin main && npm run build",
+      "pull:playcode-gui": "git pull origin main",
+      "pull:playcode-vm": "cd ../playcode-vm && git pull origin main",
+      "copy:build": "cp -r build/* /var/www/playcode", // Copy build output to /var/www/playcode
+      "webpack": "webpack --config webpack.config.js" // Assuming you have a webpack config for additional bundling
     "deploy": "touch build/.nojekyll && gh-pages -t -d build -m \"[skip ci] Build for $(git log --pretty=format:%H -n1)\"",
     "prepublish": "node scripts/prepublish.mjs",
     "prune": "./prune-gh-pages.sh",
