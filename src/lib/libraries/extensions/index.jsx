@@ -323,12 +323,12 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
     },
-    {
+    /*{
         name: 'tdrobotica:PlayGo',
         extensionId: 'playgo',
         collaborator: 'tdrobotica',
         iconURL: playgoIconURL,
         insetIconURL: playgoInsetIconURL,
         featured: true,        
-    },    
+    },    */
 ];
