@@ -325,7 +325,7 @@ export default [
     }, */
     {
         name: 'tdrobotica:PlayGo',
-        extensionId: 'playgo',
+        extensionId: 'playgo1',
         collaborator: 'tdrobotica',
         iconURL: playgoIconURL,
         insetIconURL: playgoInsetIconURL,
