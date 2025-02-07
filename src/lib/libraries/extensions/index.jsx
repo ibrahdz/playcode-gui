@@ -52,7 +52,7 @@ import playgoConnectionIconURL from './playgo/playgo-illustration.svg';
 import playgoConnectionSmallIconURL from './playgo/playgo-small.svg';
 
 export default [
-    /*{
+    {
         name: (
             <FormattedMessage
                 defaultMessage="Music"
@@ -322,7 +322,7 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
-    }, */
+    },
     {
         name: 'tdrobotica:PlayGo',
         extensionId: 'playgo',
