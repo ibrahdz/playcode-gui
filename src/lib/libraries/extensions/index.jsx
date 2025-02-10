@@ -1,6 +1,7 @@
 import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
+/*
 import musicIconURL from './music/music.png';
 import musicInsetIconURL from './music/music-small.svg';
 
@@ -45,15 +46,37 @@ import gdxforIconURL from './gdxfor/gdxfor.png';
 import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
+*/
 
 import playgoIconURL from './playgo/playgo.png';
 import playgoInsetIconURL from './playgo/playgo-small.svg';
 import playgoConnectionIconURL from './playgo/playgo-illustration.svg';
 import playgoConnectionSmallIconURL from './playgo/playgo-small.svg';
 
+import playgoIconURL from './playgo/playiot.png';
+import playgoInsetIconURL from './playgo/playiot-small.svg';
+import playgoConnectionIconURL from './playgo/playiot-illustration.svg';
+import playgoConnectionSmallIconURL from './playgo/playiot-small.svg';
+
 export default [
     {
-        name: (
+        {
+        name: 'tdrobotica:PlayGo',
+        extensionId: 'playgo',
+        collaborator: 'tdrobotica',
+        iconURL: playgoIconURL,
+        insetIconURL: playgoInsetIconURL,
+        featured: true,        
+        }, 
+        {
+        name: 'tdrobotica:PlayIoT',
+        extensionId: 'playiot',
+        collaborator: 'tdrobotica',
+        iconURL: playiotIconURL,
+        insetIconURL: playiotInsetIconURL,
+        featured: true,        
+        }, 
+        /*name: (
             <FormattedMessage
                 defaultMessage="Music"
                 description="Name for the 'Music' extension"
@@ -322,13 +345,5 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
-    },
-    {
-        name: 'tdrobotica:PlayGo',
-        extensionId: 'playgo',
-        collaborator: 'tdrobotica',
-        iconURL: playgoIconURL,
-        insetIconURL: playgoInsetIconURL,
-        featured: true,        
-    }, 
+    },*/    
 ];
