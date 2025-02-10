@@ -51,8 +51,8 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 import playgoIconURL from './playgo/playgo.png';
 import playgoInsetIconURL from './playgo/playgo-small.svg';
 
-import playgoIconURL from './playgo/playiot.png';
-import playgoInsetIconURL from './playgo/playiot-small.svg';
+import playIoTIconURL from './playgo/playiot.png';
+import playIoTInsetIconURL from './playgo/playiot-small.svg';
 
 export default [
     {
@@ -68,8 +68,8 @@ export default [
         name: 'tdrobotica:PlayIoT',
         extensionId: 'playiot',
         collaborator: 'tdrobotica',
-        iconURL: playiotIconURL,
-        insetIconURL: playiotInsetIconURL,
+        iconURL: playIoTIconURL,
+        insetIconURL: playIoTInsetIconURL,
         featured: true,        
         }, 
         /*name: (
