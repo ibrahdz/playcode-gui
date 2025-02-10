@@ -55,23 +55,22 @@ import playIoTIconURL from './playiot/playiot.png';
 import playIoTInsetIconURL from './playiot/playiot-small.svg';
 
 export default [
-    {
-        {
+    {        
         name: 'tdrobotica:PlayGo',
         extensionId: 'playgo',
         collaborator: 'tdrobotica',
         iconURL: playgoIconURL,
         insetIconURL: playgoInsetIconURL,
         featured: true,        
-        }, 
-        {
+    }, 
+    {
         name: 'tdrobotica:PlayIoT',
         extensionId: 'playiot',
         collaborator: 'tdrobotica',
         iconURL: playIoTIconURL,
         insetIconURL: playIoTInsetIconURL,
         featured: true,        
-        }, 
+    },
         /*name: (
             <FormattedMessage
                 defaultMessage="Music"
