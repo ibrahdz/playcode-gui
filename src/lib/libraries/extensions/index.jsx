@@ -50,11 +50,16 @@ import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
 import playgoIconURL from './playgo/playgo.png';
 import playgoInsetIconURL from './playgo/playgo-small.svg';
-import playgoConnectionIconURL from './playgo/playgo-small.svg';
+import playgoConnectionIconURL from './wedo2/wedo-illustration.svg';
+import playgoConnectionSmallIconURL from './wedo2/wedo-small.svg';
+import playgoConnectionTipIconURL from './wedo2/wedo-button-illustration.svg';
 
 import playIoTIconURL from './playiot/playiot.png';
 import playIoTInsetIconURL from './playiot/playiot-small.svg';
 import playIoTConnectionIconURL from './playgo/playiot-small.svg';
+import playIoTConnectionIconURL from './wedo2/wedo-illustration.svg';
+import playIoTConnectionSmallIconURL from './wedo2/wedo-small.svg';
+import playIoTConnectionTipIconURL from './wedo2/wedo-button-illustration.svg';
 
 export default [
     {        
