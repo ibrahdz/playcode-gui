@@ -56,7 +56,7 @@ import playgoConnectionTipIconURL from './wedo2/wedo-button-illustration.svg';
 
 import playIoTIconURL from './playiot/playiot.png';
 import playIoTInsetIconURL from './playiot/playiot-small.svg';
-import playIoTConnectionIconURL from './playgo/playiot-small.svg';
+import playIoTConnectionIconURL from './wedo2/wedo-illustration.svg';
 import playIoTConnectionSmallIconURL from './wedo2/wedo-small.svg';
 import playIoTConnectionTipIconURL from './wedo2/wedo-button-illustration.svg';
 
