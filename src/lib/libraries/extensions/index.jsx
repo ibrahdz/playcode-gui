@@ -60,6 +60,12 @@ import playIoTConnectionIconURL from './wedo2/wedo-illustration.svg';
 import playIoTConnectionSmallIconURL from './wedo2/wedo-small.svg';
 import playIoTConnectionTipIconURL from './wedo2/wedo-button-illustration.svg';
 
+import playMeIconURL from './playme/playme.png';
+import playMeInsetIconURL from './playme/playme-small.svg';
+import playMeConnectionIconURL from './wedo2/wedo-illustration.svg';
+import playMeConnectionSmallIconURL from './wedo2/wedo-small.svg';
+import playMeConnectionTipIconURL from './wedo2/wedo-button-illustration.svg';
+
 export default [
     {        
         name: 'tdrobotica:PlayGo',
@@ -75,6 +81,14 @@ export default [
         collaborator: 'tdrobotica',
         iconURL: playIoTIconURL,
         insetIconURL: playIoTInsetIconURL,
+        featured: true,        
+    },
+    {
+        name: 'tdrobotica:PlayMe',
+        extensionId: 'playme',
+        collaborator: 'tdrobotica',
+        iconURL: playMeIconURL,
+        insetIconURL: playMeInsetIconURL,
         featured: true,        
     },
         /*name: (
